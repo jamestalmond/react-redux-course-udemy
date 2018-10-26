@@ -6,7 +6,7 @@ const layout = (props) => (
 	<Fragment>
 		<div>Toolbar, SideDrawer, Backdrop</div>
 
-		<main className={classes.content}>
+		<main className={classes.Content}>
 			{props.children}
 		</main>
 	</Fragment>
